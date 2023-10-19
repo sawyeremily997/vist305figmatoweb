@@ -1,0 +1,24 @@
+.gd-projects {
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gd-text{
+    padding-bottom: 50px;
+}
+
+.gd-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.project{
+    width: 400px;
+}

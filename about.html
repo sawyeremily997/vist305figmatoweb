@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src = './index.js' defer></script>
+        <link rel = "stylesheet" href = "./CSS/styles.css"
+    </head>
+    <body>
+        <div class = "about-page">
+            <div class = "site-header">
+                <a href = "index.html" class = "site-title">Emily Elisa</a>
+                <a href = "index.html" class = "graphic-design-1">Graphic Design</a>
+                <h4 class = "art-1">Art</>
+                <h4 class = "about-1">About</h4>
+            </div>
+            <div class = "about-middle">
+                <div class = "about-section">
+                    <div class = "meat-section">
+                        <h1 class = "about-header">About Me</h1>
+                        <div class = "all-meat">
+                            <p class = "about-meat">My name is Emily Sawyer and I'm a junior Visualization major at Texas A&M with an emphasis in Graphic Design.</p>
+                            <p class = "about-meat">I enjoy experimenting with color theory and typography to create simple yet fun and effective designs.</p>
+                            <p class = "about-meat">I am looking for Summer 2023 internships in graphic design, interactive media, and user interface.</p>
+                            <a href = "resume.pdf" download = "Emily Sawyer Resume">
+                                <button type = "button" class = "button resume">Download Resume</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "photo-section">
+                        <img class = "me" src="EmilyMaroon2.png">
+                    </div>
+                </div>
+
+                <div class = "contact-section">
+                    <div class = "contact-info">
+                        <h3 class = "contact">Contact Me</h3>
+                        <p class = "email">sawyeremily997@gmail.com</p>
+                        <p class = "location">Austin, TX</p>
+                        <img class = "insta" src="insta.png" onclick = "instaClickFunction()">
+                        <img class = "linkedin" src="linkedin.png" onclick = "linkedinClickFunction()">
+                    </div>
+                    <div class = "form-section">
+                        <form class  = form action = "/action_page.php">
+                            <input type = "text" class = "contactform" id = "fname" name = "fname">
+                            <br>
+                            <label for = "fname">First</label>
+                            <br>
+                            <input type = "text" class = "contactform" id = "lname" name = "lname">
+                            <br>
+                            <label for = "lname">Last</label>
+                            <br>
+                            <input type = "text" class = "contactform" id = "email" name = "email">
+                            <br>
+                            <label for = "email">Email</label>
+                            <br>
+                            <textarea id="message" name="message" class = "message"></textarea>
+                            <br>
+                            <label for = "message">Message</label>
+                            <br>
+                            <input type = "submit" value = "Send" class = "button send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class = "site-footer">
+                <div class = "social">
+                    <img class = "insta" src="insta.png">
+                    <img class = "linkedin" src="linkedin.png">
+                </div>
+                <div class = "nav">
+                    <a href = "index.html" class = "gd-footer-1">Graphic Design</a>
+                    <h4 class = "art-footer-1">Art</h4>
+                    <h4 class = "about-footer-1">About</h4>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

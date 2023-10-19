@@ -1,0 +1,192 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+// .about-middle {
+//     padding-left: 120px;
+//     padding-right: 120px;
+// }
+
+// .about{
+//     text-decoration: underline;
+// }
+
+.about-section{
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    column-gap: 50px;
+
+    @media only screen and (max-width: 1000px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.meat-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.about-meat {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.me {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+
+    @media only screen and (max-width: 1000px) {
+        padding: 25px;
+    }
+}
+
+.resume{
+    @media only screen and (max-width: 1000px) {
+        margin-top: 25px;
+        justify-self: center;
+    }
+}
+.button {
+    font-family: 'Jost', sans-serif;
+    background-color: #500000;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #500000;
+}
+
+.contact-section {
+    background-color: black;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: center;
+
+    @media only screen and (max-width: 1000px) {
+        flex-wrap: wrap;
+        // justify-content: center;
+    }
+    
+}
+
+.contact-info {
+    flex-grow: 1;
+    padding-left: 25px;
+}
+
+.form {
+    padding-right: 50px;
+
+    @media only screen and (max-width: 1000px) {
+        padding-right: 0px;
+        padding-top: 25px;
+    }
+}
+
+.contactform {
+    width: 600px;
+
+    @media only screen and (max-width: 900px) {
+        width:500px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        max-width: 400px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        max-width: 300px;
+    }
+}
+
+.message {
+    width: 600px;
+    height: 200px;
+
+    @media only screen and (max-width: 900px) {
+        max-width: 500px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        max-width: 400px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        max-width: 300px;
+    }
+}
+
+.send{
+    margin-top: 25px;
+}
+
+.graphic-design-1{
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    
+}
+.graphic-design-1:hover {
+    color: #ADD8E6;
+}
+
+.art-1{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.art-1:hover {
+    color: #ADD8E6;
+}
+
+.about-1{
+    flex-grow: 1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.about-1:hover {
+    color: #ADD8E6;
+}
+
+.gd-footer-1{
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.gd-footer-1:hover {
+    color: #ADD8E6;
+}
+
+.art-footer-1{
+    cursor: pointer;
+}
+.art-footer-1:hover {
+    color: #ADD8E6;
+}
+
+.about-footer-1{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.about-footer-1:hover {
+    color: #ADD8E6;
+}

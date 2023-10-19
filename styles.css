@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.site-header {
+  background-color: #212121;
+  color: white;
+  font-family: "Jost", sans-serif;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.site-title {
+  flex-grow: 15;
+  padding-left: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18pt;
+  color: white;
+  text-decoration: none;
+}
+
+.graphic-design {
+  flex-grow: 1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.graphic-design:hover {
+  color: #ADD8E6;
+}
+
+.art {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.art:hover {
+  color: #ADD8E6;
+}
+
+.about {
+  flex-grow: 1;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.about:hover {
+  color: #ADD8E6;
+}
+
+.project {
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.site-footer {
+  background-color: #212121;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding: 15px;
+  line-height: 30px;
+}
+
+.gd-footer {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gd-footer:hover {
+  color: #ADD8E6;
+}
+
+.art-footer {
+  cursor: pointer;
+}
+
+.art-footer:hover {
+  color: #ADD8E6;
+}
+
+.about-footer {
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.about-footer:hover {
+  color: #ADD8E6;
+}
+
+.insta {
+  cursor: pointer;
+}
+
+.linkedin {
+  cursor: pointer;
+}
+
+.gd-projects {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gd-text {
+  padding-bottom: 50px;
+}
+
+.gd-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.project {
+  width: 400px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.about-section {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+@media only screen and (max-width: 1000px) {
+  .about-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.meat-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.about-meat {
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.me {
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1000px) {
+  .me {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .resume {
+    margin-top: 25px;
+    justify-self: center;
+  }
+}
+
+.button {
+  font-family: "Jost", sans-serif;
+  background-color: #500000;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #500000;
+}
+
+.contact-section {
+  background-color: black;
+  color: white;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+@media only screen and (max-width: 1000px) {
+  .contact-section {
+    flex-wrap: wrap;
+  }
+}
+
+.contact-info {
+  flex-grow: 1;
+  padding-left: 25px;
+}
+
+.form {
+  padding-right: 50px;
+}
+@media only screen and (max-width: 1000px) {
+  .form {
+    padding-right: 0px;
+    padding-top: 25px;
+  }
+}
+
+.contactform {
+  width: 600px;
+}
+@media only screen and (max-width: 900px) {
+  .contactform {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contactform {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contactform {
+    max-width: 300px;
+  }
+}
+
+.message {
+  width: 600px;
+  height: 200px;
+}
+@media only screen and (max-width: 900px) {
+  .message {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .message {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .message {
+    max-width: 300px;
+  }
+}
+
+.send {
+  margin-top: 25px;
+}
+
+.graphic-design-1 {
+  flex-grow: 1;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.graphic-design-1:hover {
+  color: #ADD8E6;
+}
+
+.art-1 {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.art-1:hover {
+  color: #ADD8E6;
+}
+
+.about-1 {
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.about-1:hover {
+  color: #ADD8E6;
+}
+
+.gd-footer-1 {
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+.gd-footer-1:hover {
+  color: #ADD8E6;
+}
+
+.art-footer-1 {
+  cursor: pointer;
+}
+
+.art-footer-1:hover {
+  color: #ADD8E6;
+}
+
+.about-footer-1 {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.about-footer-1:hover {
+  color: #ADD8E6;
+}/*# sourceMappingURL=styles.css.map */
